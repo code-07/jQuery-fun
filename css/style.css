@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	width: 100%;
+	background-color: #a45f33;	
+}
+.menu {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #a45f33;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	display: inline-block;
+}
+.menu ul li:hover {
+	background-color: #123456;
+}
+.slide {
+
+}
+.slide p {
+	width: 100%;
+	position: absolute;
+	background-color: red;
+	padding: 30px 20px;
+	color: #fff;
+	border: 2px solid #123456;
+	display: none;
+}
+.pic-sec {
+	position: relative;
+}
+.pic1 {
+	position: absolute;
+}
+.pic1 h1 {
+	position: absolute;
+	color: #fff;
+	font-size: 30px;
+	top: 0;
+	left: 20px;
+}
+.pic2 {
+	position: absolute;
+	top: 640px;
+}
+.fun p {
+	font-size: 70px;
+	color: #fff;
+	margin: 50px;
+}
